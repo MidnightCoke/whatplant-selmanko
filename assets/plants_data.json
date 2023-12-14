@@ -1,0 +1,46 @@
+{
+    "Spring": [
+      {"name": "Tulip", "season": "Spring"},
+      {"name": "Daffodil", "season": "Spring"},
+      {"name": "Crocus", "season": "Spring"},
+      {"name": "Hyacinth", "season": "Spring"},
+      {"name": "Lilac", "season": "Spring"},
+      {"name": "Azalea", "season": "Spring"},
+      {"name": "Cherry Blossom", "season": "Spring"},
+      {"name": "Daisy", "season": "Spring"},
+      {"name": "Bluebell", "season": "Spring"},
+      {"name": "Magnolia", "season": "Spring"}
+    ],
+    "Summer": [
+      {"name": "Rose", "season": "Summer"},
+      {"name": "Sunflower", "season": "Summer"},
+      {"name": "Lavender", "season": "Summer"},
+      {"name": "Daisy", "season": "Summer"},
+      {"name": "Hibiscus", "season": "Summer"},
+      {"name": "Peony", "season": "Summer"},
+      {"name": "Lily", "season": "Summer"},
+      {"name": "Cactus", "season": "Summer"},
+      {"name": "Geranium", "season": "Summer"}
+    ],
+    "Autumn": [
+      {"name": "Maple", "season": "Autumn"},
+      {"name": "Pumpkin", "season": "Autumn"},
+      {"name": "Chrysanthemum", "season": "Autumn"},
+      {"name": "Pine Cone", "season": "Autumn"},
+      {"name": "Sunflower", "season": "Autumn"},
+      {"name": "Dahlia", "season": "Autumn"},
+      {"name": "Cosmos", "season": "Autumn"},
+      {"name": "Goldenrod", "season": "Autumn"}
+    ],
+    "Winter": [
+      {"name": "Poinsettia", "season": "Winter"},
+      {"name": "Holly", "season": "Winter"},
+      {"name": "Ivy", "season": "Winter"},
+      {"name": "Mistletoe", "season": "Winter"},
+      {"name": "Winter Jasmine", "season": "Winter"},
+      {"name": "Snowdrop", "season": "Winter"},
+      {"name": "Camellia", "season": "Winter"},
+      {"name": "Fir Tree", "season": "Winter"}
+    ]
+  }
+  
