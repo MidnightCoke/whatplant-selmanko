@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'plant_list_screen.dart';
+import "order_page.dart";
 
 class DateSelectionScreen extends StatefulWidget {
   @override
@@ -65,6 +66,21 @@ class _DateSelectionScreenState extends State<DateSelectionScreen> {
             onPressed: () => _selectDate(context),
             icon: const Icon(Icons.date_range_outlined),
             label: const Text('Select Date'),
+          ),
+          ElevatedButton.icon(
+            style: ElevatedButton.styleFrom(
+              shape: const StadiumBorder(),
+            ),
+            onPressed: () => {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => OrderPage(userID: "Ahmet"),
+                ),
+              )
+            },
+            icon: const Icon(Icons.money_off_csred_rounded),
+            label: const Text('Show Orders'),
           )
         ],
       ),

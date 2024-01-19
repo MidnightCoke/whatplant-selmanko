@@ -52,7 +52,12 @@ class PlantListScreen extends StatelessWidget {
                           borderRadius: BorderRadius.all(Radius.circular(20))),
                       child: GestureDetector(
                         // BU kısımda satın alma işlemi gerçekleşiyor
-                        onTap: () => print("${plants[index]}"),
+                        onTap: () {
+                          // Burada bitkinin adını yazdırabilirsiniz
+                          print("${plants[index].name} satın alındı");
+
+                          SeasonalPlants.buyPlant("Ahmet", plants[index].name);
+                        },
                         child: Icon(
                           Icons.shopping_cart,
                           color: Colors.lightGreenAccent[800],
